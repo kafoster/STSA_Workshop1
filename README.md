@@ -75,19 +75,12 @@ This workshop assumes that you have completed the STSA event prerequisite activi
 -   Add a new table to your dashDB service using the following DDL:
 
     CREATE TABLE "SENSEDATA"
-
     (
-
     "SENSORID" VARCHAR(20),
-
     "TEMPERATURE" DOUBLE,
-
     "HUMIDITY" DOUBLE,
-
     "PRESSURE" DOUBLE,
-
     "TIMESENT" TIMESTAMP
-
     );
 
     ***Note**: The name of this table and the names of the rows will be
