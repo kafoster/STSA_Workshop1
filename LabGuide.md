@@ -1,10 +1,9 @@
-![](./media/image1.jpg){width="4.464444444444444in"
-height="1.3666666666666667in"}
+![](static/imgs/image1.jpg)
 
 Workshop 1: Raspberry Pi and IoT
 ================================
 
-Objective: 
+Objective:
 ===========
 
 The purpose of this workshop is to get you started working with Bluemix,
@@ -18,7 +17,7 @@ to try and complete the exercise on your own, follow the Jedi Master
 path. Otherwise, if you prefer a more guided approach, choose the Jedi
 Padowan path. Choose wisely and have fun.
 
-### Total time to complete: One Hour 
+### Total time to complete: One Hour
 
 I.  Create the Bluemix Application Space (17 minutes)
 
@@ -110,7 +109,7 @@ your system prepared as you will not have time to complete the exercise.
 ### PART IV: Create Bluemix Node-Red Flows
 
 -   Create the following:\
-    ![](./media/image2.png){width="7.0in" height="3.658333333333333in"}
+    ![](static/imgs/image2.png)
 
 -   Receive the three different event types (environment, motion, &
     joystick).
@@ -182,7 +181,7 @@ your system prepared as you will not have time to complete the exercise.
 ### Part VI: Create Raspberry Pi Node-Red Flows
 
 -   Create the following:\
-    ![](./media/image3.png){width="7.0in" height="3.4791666666666665in"}
+    ![](static/imgs/image3.png)
 
 -   Break the Sense Hat sensor data into three different event types
     (environment, motion, & joystick).
@@ -259,10 +258,8 @@ services to it.
     only one of your Bluemix accounts for this workshop.
 
 2.  From here, click on:
-    ![](./media/image4.png){width="0.9451388888888889in"
-    height="0.2835422134733158in"} and navigate to and click on:
-    ![](./media/image5.png){width="1.4938724846894138in"
-    height="0.5253182414698163in"}.\
+    ![](static/imgs/image4.png)and navigate to and click on:
+    ![](static/imgs/image5.png)
     You can use the type-ahead feature of the search bar to quickly find
     this boilerplate.
 
@@ -271,8 +268,7 @@ services to it.
     unique. For consistency, these workshops will use the name
     **STSAWorkshops-xx** **(Replace xx with your team number)**. Enter
     your application name in the application name field, and click
-    ![](./media/image6.png){width="0.9171369203849519in"
-    height="0.20438976377952756in"}. There is no need to modify any of
+    ![](static/imgs/image6.png). There is no need to modify any of
     the other fields on this page. At this point, your application will
     be created and, after a few moments, you will be taken to the
     Getting Started page for your application.
@@ -285,10 +281,8 @@ services to it.
     additional services: **Internet of Things and dashDB for
     Analytics**.*
 
-5.  Click ![](./media/image7.png){width="1.0264227909011374in"
-    height="0.33679461942257216in"} and select the
-    ![](./media/image8.png){width="1.7203346456692914in"
-    height="0.6123206474190727in"}.\
+5.  Click ![](static/imgs/image7.png) and select the
+    ![](static/imgs/image8.png).\
     Again, you can use the type-ahead feature of the search bar to find
     this service quickly.\
     **Important: Make sure that you select the IoT Platform Service, not
@@ -303,25 +297,21 @@ services to it.
     to. On the left side of the page, you will see the connect to
     drop-down menu. Be sure to select your Bluemix application from this
     list.\
-    ![](./media/image9.png){width="1.632638888888889in"
-    height="1.205165135608049in"}
+    ![](static/imgs/image9.png)
 
-8.  Click ![](./media/image6.png){width="0.9171369203849519in"
-    height="0.20438976377952756in"} and, after a moment, you will be
+8.  Click ![](static/imgs/image6.png) and, after a moment, you will be
     asked to restage the application. Say **yes** to the restaging
     request. At this point you have created a new IoT service and
     connected it you your application.
 
 9.  Repeat steps 4 - 8 to add the **STSAWorkshops-dashDB** services to
     your application using the following service.\
-    ![](./media/image10.png){width="2.128953412073491in"
-    height="0.7510465879265091in"}
+    ![](static/imgs/image10.png)
 
 10. At this point, you should be in the Connections section of your
     application. Click on Overview in order to return to the Overview
     page which should look similar to this:\
-    ![](./media/image11.png){width="4.764583333333333in"
-    height="4.034297900262467in"}
+    ![](static/imgs/image11.png)
 
 ### PART II: Define IoT devices to Internet of Things Service
 
@@ -330,22 +320,19 @@ services to it.
     application name (**STSAWorkshops-xx**) in the Bluemix dashboard.
 
 2.  Scroll down to the:\
-    ![](./media/image12.png){width="2.576266404199475in"
-    height="1.3980336832895888in"}\
+    ![](static/imgs/image12.png)\
     And click on the **STSAWorkshops-IoT** service to start it.
 
 3.  This will land you on the “Manage” page of your IoT service where
     you should click
-    ![](./media/image13.png){width="0.6728116797900262in"
-    height="0.25077646544181975in"}. ***Note**: The IoT service should
+    ![](static/imgs/image13.png). ***Note**: The IoT service should
     then launch in a separate browser window or tab leaving the service
     details tab open as well. Keep this tab open as it will make
     returning to the Bluemix dashboard much easier.*
 
 4.  You will need to create a new IoT device. On the Left side of the
     window, you should see an icon that looks like
-    this:![](./media/image14.png){width="0.32242016622922137in"
-    height="0.2848042432195976in"}. Click on this icon to get to the
+    this:![](static/imgs/image14.png). Click on this icon to get to the
     devices view.\
     ***Note**: These workshops will be treating the Raspberry Pi as a
     Gateway and the attached Sense Hat as a downstream sensor device.
@@ -354,26 +341,22 @@ services to it.
     Hat connects through it.*
 
 5.  Click new on the
-    ![](./media/image15.png){width="0.6792071303587052in"
-    height="0.27387357830271214in"}.
+    ![](static/imgs/image15.png).
 
 6.  The first step of device creation is to select the device type.
     There is a drop-down menu to select from but you will notice that
     there are no device types in the list. So, we will create the device
     type as a part of the device creation by selecting
-    ![](./media/image16.png){width="2.1465277777777776in"
-    height="0.2633781714785652in"}.
+    ![](static/imgs/image16.png).
 
 7.  We will be configuring the Raspberry Pi as a Gateway device select
-    ![](./media/image17.png){width="2.1465277777777776in"
-    height="0.2509787839020122in"}.
+    ![](static/imgs/image17.png).
 
 8.  Call the new device type **PiGateway** and give it any description
     you like.
 
 9.  Then, in the lower right corner, find and select the
-    ![](./media/image18.png){width="0.35363517060367455in"
-    height="0.23039916885389328in"} button.
+    ![](static/imgs/image18.png) button.
 
 10. At this point, you arrive at the “Define Template” page. The options
     on this page select attributes for the device type. All of these
@@ -381,35 +364,30 @@ services to it.
     devices that are assigned this device type. Attributes you do not
     define may still be edited individually on devices that are assigned
     this device type. We will not define any additional attributes, so
-    just click ![](./media/image18.png){width="0.35363517060367455in"
-    height="0.23039916885389328in"}.
+    just click ![](static/imgs/image18.png).
 
 11. Next, you come to the “Submit Information” page. If you had selected
     any attributes in the prior page, they would be listed here for
     verification. Select
-    ![](./media/image18.png){width="0.35363517060367455in"
-    height="0.23039916885389328in"} again to proceed to the “Metadata”
+    ![](static/imgs/image18.png) again to proceed to the “Metadata”
     page.
 
 12. The “Metadata” page is where you would define any custom attributes
     that might be needed for your environment. We have no need for any
     Metadata so just click
-    ![](./media/image19.png){width="0.38958333333333334in"
-    height="0.22522747156605424in"} to create the new PiGateway device
+    ![](static/imgs/image19.png) to create the new PiGateway device
     type.
 
 13. Now you will be returned to the “Add Device” page. However, now you
     will see the new device type “PiGateway” in the list of device
     types. Go ahead and select it and click
-    ![](./media/image18.png){width="0.35363517060367455in"
-    height="0.23039916885389328in"}.
+    ![](static/imgs/image18.png).
 
 14. Every device needs to have a unique id within your specific IoT
     service instance and it is defined on this Device Info page. You can
     use any unique name that you like, these workshops assume the device
     id is: **STSAGateway**. Enter your device id and click
-    ![](./media/image18.png){width="0.35363517060367455in"
-    height="0.23039916885389328in"}.\
+    ![](static/imgs/image18.png).\
     ***Note**: There are also several other attributes that can be
     defined here that can help you to identify a device and its purpose.
     These can be very useful in a multi device environment but, since we
@@ -419,8 +397,7 @@ services to it.
 15. Just as it was during Device Type creation, the “Metadata” page is
     where you would define any custom attributes that might be needed
     for your environment. We have no need for any metadata so just click
-    ![](./media/image18.png){width="0.35363517060367455in"
-    height="0.23039916885389328in"} to move to the “Security” page.
+    ![](static/imgs/image18.png) to move to the “Security” page.
 
 16. Regarding security, there are two options. The Auto-generated token
     is a random 18 character mix of alphanumeric characters and symbols.
@@ -429,15 +406,13 @@ services to it.
     security is paramount, for these workshops, please scroll down and
     enter an easily remembered, **self-provided** token (we will use
     **raspberry**) and then click
-    ![](./media/image18.png){width="0.35363517060367455in"
-    height="0.23039916885389328in"}.\
+    ![](static/imgs/image18.png).\
     ***Note**: Authentication tokens are encrypted and cannot be
     recovered if lost. Be sure to make a note of your token. *
 
 17. Finally, you come to the “Summary” page where you can verify all of
     your entries before you complete the device creation by clicking
-    ![](./media/image20.png){width="0.3279002624671916in"
-    height="0.20178477690288715in"}.
+    ![](static/imgs/image20.png).
 
 18. Your device is now defined and you are presented a summary page of
     the result. Make a note of the following items from the summary page
@@ -453,8 +428,7 @@ services to it.
     Token: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 19. Close the summary window by clicking
-    ![](./media/image21.png){width="0.2630194663167104in"
-    height="0.2356211723534558in"} and you will be taken back to the
+    ![](static/imgs/image21.png) and you will be taken back to the
     device dashboard where you will see your new device. You should
     leave this browser tab open for validation testing later, but, for
     now, switch over to the IoT Service Details browser tab so you can
@@ -463,10 +437,8 @@ services to it.
 20. In order to return to the Bluemix Dashboard, click the hamburger
     menu in the upper left of the page, select **Services** then
     **Dashboard**.\
-    ![](./media/image22.png){width="0.3135247156605424in"
-    height="0.25604549431321083in"}\
-    ![](./media/image23.png){width="1.30625in"
-    height="1.458383639545057in"}
+    ![](static/imgs/image22.png)\
+    ![](static/imgs/image23.png)
 
 ### Part III: Create dashDB table for environment data
 
@@ -482,17 +454,14 @@ sensor that sent the data along with a time stamp.
 
 2.  Like the IoT Service, this will land you on the “Manage” page of
     your dashDB service where you should click
-    ![](./media/image24.png){width="0.5838156167979003in"
-    height="0.21331692913385827in"}.\
+    ![](static/imgs/image24.png).\
     ***Note**: The dashDB service should then launch in a separate
     browser window or tab leaving the service details tab open as well.
     Keep this tab open as it will make returning to the Bluemix
     dashboard much easier.*
 
-3.  Click on ![](./media/image25.png){width="0.8004943132108486in"
-    height="0.721165791776028in"}and then
-    ![](./media/image26.png){width="0.6558880139982503in"
-    height="0.25018372703412073in"}in order to create a new table.
+3.  Click on ![](static/imgs/image25.png)and then
+    ![](static/imgs/image26.png)in order to create a new table.
 
 4.  Replace the text in the “Edit the DDL statements box with the
     following:
@@ -517,20 +486,17 @@ sensor that sent the data along with a time stamp.
     an important element of later workshops so be sure to double check
     your spelling.*
 
-5.  Click ![](./media/image27.png){width="0.62750656167979in"
-    height="0.2649475065616798in"}and your table will be created. You
+5.  Click ![](static/imgs/image27.png) and your table will be created. You
     should see a message that the table was created successfully.
     Dismiss that message and you will be returned to the “Create a
     Table” page. Dismiss that as well and you will be back to the
     “Create, drop, and work with tables” page.
 
 6.  Select the “SENSEDATA” table from the table name drop
-    down![](./media/image28.png){width="1.7609601924759406in"
-    height="0.288251312335958in"}and you will be able to see the table
+    down![](static/imgs/image28.png)and you will be able to see the table
     definition. You can also click on “Browse Data” in order to see the
     actual data stored in the table. This will be handy later.\
-    ![](./media/image29.png){width="5.539805336832896in"
-    height="3.150213254593176in"}
+    ![](static/imgs/image29.png)
 
 7.  You should leave this browser tab open for validation testing later,
     but, for now, switch over to the dashDB Service Details browser tab
@@ -539,10 +505,8 @@ sensor that sent the data along with a time stamp.
 8.  In order to return to the Bluemix Dashboard, click the hamburger
     menu in the upper left of the page, select **Apps** then
     **Dashboard**.\
-    ![](./media/image22.png){width="0.3135247156605424in"
-    height="0.25604549431321083in"}\
-    ![](./media/image23.png){width="1.30625in"
-    height="1.458383639545057in"}
+    ![](static/imgs/image22.png)\
+    ![](static/imgs/image23.png)
 
 ### Part IV: Create Bluemix Node-Red Flows
 
@@ -568,8 +532,7 @@ Ready? Let’s begin.
 
 2.  From there, you get to the Node-Red programming space, by selecting
     **Visit App
-    URL**![](./media/image30.png){width="2.9825404636920383in"
-    height="0.5089249781277341in"}
+    URL**![](static/imgs/image30.png)
 
 3.  The first time that you start the Node-Red environment, you will be
     presented with a Welcome wizard. Use the Next button to progress
@@ -590,12 +553,10 @@ Ready? Let’s begin.
 
 1.  Once the first-time wizard is complete, you are taken to the
     Node-Red launch page and can start the editor by clicking:
-    ![](./media/image31.png){width="1.4034722222222222in"
-    height="0.3697528433945757in"}.
+    ![](static/imgs/image31.png).
 
 2.  From the node palette on the left, find the
-    ![](./media/image32.png){width="1.2410181539807523in"
-    height="0.34266951006124236in"}input node (it should be located in
+    ![](static/imgs/image32.png)input node (it should be located in
     the input section of the palette) and drag it out into your Node-Red
     workspace.
 
@@ -603,8 +564,7 @@ Ready? Let’s begin.
     Raspberry Pi application. You will need to configure the node by
     opening settings and configuring as follows:
 
--   ![](./media/image33.png){width="3.61875in"
-    height="2.959722222222222in"}Because the IoT service is connected to
+-   ![](static/imgs/image33.png)Because the IoT service is connected to
     your application, all the authentication can be handled right
     through Bluemix and no other information needs to be provided for
     authentication.
@@ -621,8 +581,7 @@ Ready? Let’s begin.
     handle the **motion** and **joystick** events respectively.
 
 2.  Next, find and add a
-    ![](./media/image34.png){width="1.2506944444444446in"
-    height="0.3335181539807524in"} node (In the output section) to the
+    ![](static/imgs/image34.png) node (In the output section) to the
     right of the ibmiot nodes.
 
 3.  Open the debug node settings and change the output to **complete msg
@@ -632,22 +591,19 @@ Ready? Let’s begin.
 
 4.  Connect your ibmiot nodes to your debug node by clicking and
     dragging from one connection point to the other
-    ![](./media/image35.png){width="0.5235444006999125in"
-    height="0.2981288276465442in"}. ***Note**: You can have several
+    ![](static/imgs/image35.png). ***Note**: You can have several
     nodes connecting to a single connection point.*
 
 5.  Once the Raspberry Pi side of this application is complete, you will
     be able to verify that you are receiving events from the Raspberry
-    Pi by clicking ![](./media/image36.png){width="0.8387325021872266in"
-    height="0.2012959317585302in"}.
+    Pi by clicking ![](static/imgs/image36.png).
 
 6.  On the right side of the page you should see a tab labeled “debug”.
     Click on that tab and you should see data flowing into your debug
     node from the ibmiot nodes.
 
 7.  On the right side of the debug node you will see a green toggle
-    button ![](./media/image37.png){width="0.5203937007874015in"
-    height="0.3171150481189851in"}. This allows you to stop/start the
+    button ![](static/imgs/image37.png). This allows you to stop/start the
     output to that particular debug node. Turn off the output by
     clicking the toggle and the data will stop coming into the debug
     panel. Now you can get a closer look at the actual event messages
@@ -772,8 +728,7 @@ Ready? Let’s begin.
 
 1.  All that is left is to configure the ibmiot output node:
 
-![](./media/image38.png){width="3.2930555555555556in"
-height="3.03125in"}
+![](static/imgs/image38.png)
 
 -   The configuration of this node is very similar to the ibmiot input
     node.
@@ -794,7 +749,7 @@ height="3.03125in"}
 
 2.  In the end, your Bluemix application should look something like
     this:\
-    ![](./media/image2.png){width="7.0in" height="3.658333333333333in"}
+    ![](static/imgs/image2.png)
 
 ### PART V: Start Node-Red on Raspberry Pi
 
@@ -876,8 +831,7 @@ as a part of the message payload. Ready? Let’s begin.
     use the network address of your team’s system.*
 
 2.  From the node palette on the left, find the
-    ![](./media/image39.png){width="1.161984908136483in"
-    height="0.3257075678040245in"}input node (it should be located in
+    ![](static/imgs/image39.png)input node (it should be located in
     the Raspberry\_Pi section of the palette) and drag it out into your
     Node-Red workspace.
 
@@ -886,8 +840,7 @@ as a part of the message payload. Ready? Let’s begin.
     each box.
 
 4.  Next, find and add a
-    ![](./media/image34.png){width="1.2506944444444446in"
-    height="0.3335181539807524in"} node (In the output section) to the
+    ![](static/imgs/image34.png) node (In the output section) to the
     right of the Sense Hat node.
 
 5.  Open the debug node and change the output to **complete msg
@@ -897,20 +850,17 @@ as a part of the message payload. Ready? Let’s begin.
 
 6.  Connect your Sense Hat node to your debug node by clicking and
     dragging from one connection point to the other
-    ![](./media/image35.png){width="0.5235444006999125in"
-    height="0.2981288276465442in"}.
+    ![](static/imgs/image35.png).
 
 7.  At this point, verify that your Sense Hat is producing output by
-    clicking ![](./media/image36.png){width="0.8387325021872266in"
-    height="0.2012959317585302in"}.
+    clicking ![](static/imgs/image36.png).
 
 8.  On the right side of the page you should see a tab labeled “debug”.
     Click on that tab and you should see a tremendous amount of data
     flowing into your debug node from the Sense Hat.
 
 9.  On the right side of the debug node you will see a green toggle
-    button ![](./media/image37.png){width="0.5203937007874015in"
-    height="0.3171150481189851in"}. This allows you to stop/start the
+    button ![](static/imgs/image37.png). This allows you to stop/start the
     output to that particular debug node. Turn off the output by
     clicking the toggle and the data will stop scrolling by in the debug
     panel. Now you can get a closer look at the actual messages that the
@@ -948,8 +898,7 @@ as a part of the message payload. Ready? Let’s begin.
     **String** is selected and then enter the string **environment**
     into the field.
 
-15. Use the ![](./media/image40.png){width="0.4222889326334208in"
-    height="0.25913167104111984in"} button near the bottom to add the
+15. Use the ![](static/imgs/image40.png) button near the bottom to add the
     additional comparison fields for **motion** and **joystick**.
 
 ***Note**: When you close the switch node settings, you will now see
@@ -1000,14 +949,12 @@ added to the switch node.*
     service. You will need to configure them by opening settings and
     configuring as follows:
 
--   ![](./media/image41.png){width="3.4895833333333335in"
-    height="3.229861111111111in"}Because we defined the Raspberry Pi as
+-   ![](static/imgs/image41.png) Because we defined the Raspberry Pi as
     a Gateway device, you need to connect as a **Gateway**.
 
 -   When configuring the first of these nodes, you will need to **Add
     new wiotp-credentials.** You do this by clicking on the
-    ![](./media/image42.png){width="0.3332436570428696in"
-    height="0.3332436570428696in"} in the credentials line. Here you
+    ![](static/imgs/image42.png) in the credentials line. Here you
     will identify the gateway device that you defined earlier. Use the
     values that you recorded during the IoT device definition to fill in
     the appropriate fields. Do not modify any other fields in this
@@ -1026,8 +973,7 @@ added to the switch node.*
 2.  Once again, deploy the application. If everything has gone well, you
     will see a green dot below the IoT nodes that indicates they are
     connected to the IoT
-    service![](./media/image43.png){width="1.5586515748031495in"
-    height="0.4777777777777778in"}.
+    service![](static/imgs/image43.png).
 
 3.  This concludes flow 1.
 
@@ -1046,8 +992,7 @@ added to the switch node.*
     from the Bluemix application. You will need to configure the node by
     opening settings and configuring as follows:
 
-    -   ![](./media/image44.png){width="3.4763888888888888in"
-        height="2.8694444444444445in"}Again, because we defined the
+    -   ![](static/imgs/image44.png)  Again, because we defined the
         Raspberry Pi as a Gateway device, you need to connect as a
         **Gateway**.
 
@@ -1140,7 +1085,7 @@ added to the switch node.*
 
 2.  In the end, your Raspberry Pi application should look something like
     this:\
-    ![](./media/image3.png){width="7.0in" height="3.4791666666666665in"}
+    ![](static/imgs/image3.png)
 
 Part VII: Deploy and validate success
 =====================================
@@ -1165,15 +1110,13 @@ Part VII: Deploy and validate success
     **complete msg object. *Note:*** *You will need to actually move the
     tiny joystick on the Sense Hat in order to see joystick events.*
 
-> ![](./media/image45.png){width="4.383660323709536in"
-> height="1.5487182852143482in"}
+> ![](static/imgs/image45.png)
 
 -   In the Bluemix application, use the inject nodes to verify that the
     Sense Hat LED reacts appropriately when you press the inject
     buttons. Be sure that all three injections work properly.
 
-> ![](./media/image46.png){width="1.5916666666666666in"
-> height="1.275in"}If they do not, check the debug output from the
+> ![](static/imgs/image46.png)  If they do not, check the debug output from the
 > function node that formats the data for the Sense Hat. In the output
 > data, you should verify that the **eventOrCommandType** is set to the
 > correct command type (alarm or message). You should also verify that
@@ -1201,8 +1144,7 @@ Part VII: Deploy and validate success
     again from your Bluemix dashboard. If you do not see your new
     device, you may need to press the refresh button.
 
-> ![](./media/image47.png){width="4.96875in"
-> height="2.1819444444444445in"}
+> ![](static/imgs/image47.png)
 
 -   Finally, return to your dashDB: Tables browser tab. Once there, if
     you click on Browse Data, you should be able to see the rows of
@@ -1210,7 +1152,7 @@ Part VII: Deploy and validate success
     this browser tab open, you can open it again from your Bluemix
     dashboard.
 
-> ![](./media/image48.png){width="4.99375in" height="2.30625in"}
+> ![](./media/image48.png)
 
 -   If you do not see any data rows in your table, check the debug
     output from the function node that formats the data for dashDB. In
